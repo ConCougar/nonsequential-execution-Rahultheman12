@@ -58,10 +58,10 @@ repeat {
         if (x*y < 10) {
             print(" ", terminator: "")
         }
-        if (x*y < 100) {
+        else if (x*y < 100) {
             print(" ", terminator: "")
         }
-        if(x*y < 1000){
+        else{
             print(" ", terminator: "")
         print(x*y, terminator: "")
     }
